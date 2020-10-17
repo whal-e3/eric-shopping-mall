@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: Poppins; 
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/*----------------search bar-------------------------*/
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vh;
+  padding: 10px 15px;
+  height: 10vh;
+  border: solid 5px #000000;
+  border-radius: 10px;
+}
+#name {
+  font-size: 2rem;
+}
+#search {
+  width: 55vw;
+  margin: 0;
+  border-radius: 5px;
+}
+/*-------------------products-----------------------*/
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 98vw;
+  margin: 0 auto;
+}
+#product-prop #img-prop{
+  width: 200px;
+  text-align: center;
+}
+#product-prop #name-prop {
+  width: 25vw;
+  text-align: center;
+  margin-right: 200px;
+}
+#product-prop #cost-prop {
+  text-align: center;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid 2px rgb(118, 137, 138);
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 2vh;
+}
+.product img {
+  width: 200px;
+  height: 130px;
+  border: #000000 solid 2px;
+  margin: 5px;
+  margin-right: 100px;
+}
+.product .description {
+  width: 25vw;
+}
+.description{
+  display: block;
+}
+.product .cost {
+  width: 10vw;
+}
+
+.checkbox{
+  margin-left: 30vw;
+  margin-right: 1vw;
+  opacity: 0.6;
+}
+.delete {
+  opacity: 0.6;
+}
+.checkbox:hover, .delete:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/*----------------------total--------------------------*/
+
+#total {
+  width: 98vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#total-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
